@@ -9,6 +9,7 @@ import { check, Match } from 'meteor/check';
 export const Tasks = new Mongo.Collection('boxes');
 
 //var works_db = new MongoInternals.RemoteCollectionDriver("mongodb://works:zheldjf@192.168.10.135:27017/works?authSource=works");
+//var works_db = new MongoInternals.RemoteCollectionDriver("mongodb://worksUsername:worksPassword@asolution.iptime.org:27017/works?authSource=works");
 //export const works_db_collection = new Mongo.Collection("boxes", { _driver: works_db });
 
 /*
