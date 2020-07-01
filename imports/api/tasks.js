@@ -37,7 +37,6 @@ if (Meteor.isServer) {
     });
   });
 
-
   /*
   Meteor.publish('tasks2', function tasksPublication2() {
 
@@ -50,7 +49,6 @@ if (Meteor.isServer) {
   */
 
 }
-
 
 Meteor.methods({
   'tasks.insert'(text) {
